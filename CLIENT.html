@@ -3,6 +3,44 @@
 
 <head>
     <style>
+        body {
+            margin: 0;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+            position: fixed;
+            top: 0;
+            width: 100%;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #4CAF50;
+        }
+
+
+
+
         #idclient {
             text-align: center;
             color: green;
@@ -34,6 +72,11 @@
             color: maroon;
             margin-left: 40px;
         }
+
+        element {
+            text-align: center;
+            color: red;
+        }
     </style>
 
 
@@ -44,48 +87,66 @@
 
 <body>
 
+    <ul>
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about">About</a></li>
+
+    </ul>
+
+    <div style="padding:20px;margin-top:30px;background-color:#1abc9c;height:1500px;">
+        <div class="myDiv">
+            <center>
+                <p id="idclient">CHAO SOONS</p>
+                <p>The CSS id Selector.</p>
+            </center>
+        </div>
 
 
 
 
 
 
-    <div class="myDiv">
-        <center>
-            <p id="idclient">CHAO SOONS</p>
-            <p>The CSS id Selector.</p>
-        </center>
+        <br>
+
+        <div class="myDiv">
+            <h1 class="classcenter">CHAO SOONS H1</h1>
+            <p class="classcenter">The CSS class Selector.</p>
+        </div>
+
+        <br>
+
+        <div class="myDiv">
+            <h1>CHAO SOONS CSS Grouping Selector</h1>
+            <h2>CHAO SOONS h2</h2>
+            <h3>The CSS Grouping Selector</h3>
+        </div>
+
+        <br>
+
+        <div class="myDiv">
+            <h4>CHAO SOONS Internal CSS</h4>
+            <p>Internal CSS.</p>
+        </div>
+
+        <br>
+
+        <div class="myDiv">
+            <h1 style="color:blue;text-align:center;">CHAO SOONS Inline CSS</h1>
+            <p style="color:red;">Inline CSS.</p>
+        </div>
+
+        <br>
+
+        <div class="myDiv">
+            <element>CHAO SOONS.</element>
+            <element>The CSS element Selector</p>
+        </div>
+
+
+
     </div>
-
-    <br>
-
-    <div class="myDiv">
-        <h1 class="classcenter">CHAO SOONS H1</h1>
-        <p class="classcenter">The CSS class Selector.</p>
-    </div>
-
-    <br>
-
-    <div class="myDiv">
-        <h1>CHAO SOONS CSS Grouping Selector</h1>
-        <h2>CHAO SOONS h2</h2>
-        <h3>The CSS Grouping Selector</h3>
-    </div>
-
-    <br>
-
-    <div class="myDiv">
-        <h4>CHAO SOONS Internal CSS</h4>
-        <p>Internal CSS.</p>
-    </div>
-
-    <br>
-
-    <div class="myDiv">
-        <h1 style="color:blue;text-align:center;">CHAO SOONS Inline CSS</h1>
-        <p style="color:red;">Inline CSS.</p>
-    </div>
-
 </body>
 
 </html>
