@@ -87,6 +87,7 @@
             line-height: 75px;
             font-size: 30px;
         }
+
         /*_______________________________________________________*/
         /*เว้นเท่าๆกัน*/
         .flex-space-between {
@@ -103,12 +104,53 @@
             line-height: 75px;
             font-size: 30px;
         }
+
+        /*_______________________________________________________*/
+        /*ตั้งตรงกลาง*/
+
+        .flex-directioncenter {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: red;
+        }
+
+        .flex-directioncenter>div {
+            background-color: #f1f1f1;
+            width: 100px;
+            margin: 10px;
+            text-align: center;
+            line-height: 75px;
+            font-size: 30px;
+        }
+
+        /*_______________________________________________________*/
+        /*ตรงกลางนอน*/
+
+        .flex-directionrow {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            background-color: blue;
+        }
+
+        .flex-directionrow>div {
+            background-color: #f1f1f1;
+            width: 100px;
+            margin: 10px;
+            text-align: center;
+            line-height: 75px;
+            font-size: 30px;
+        }
     </style>
 </head>
 
 <body>
     <center>
-        <h1>flex-wrap || flex-direction || flex-start || flex-end || flex-center || flex-space-between</h1>
+        <h1>flex-wrap || flex-direction || flex-start || flex-end || flex-center || flex-space-between ||
+            flex-directioncenter || <br> flex-directionrow</h1>
     </center>
 
 
@@ -205,6 +247,28 @@
 
     </div>
     <div class="flex-space-between">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+
+    </div>
+    <div class="flex-directioncenter">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+
+    </div>
+    <div class="flex-directionrow">
         <div>1</div>
         <div>2</div>
         <div>3</div>
