@@ -1,0 +1,3 @@
+npx create-next-app foo1
+cd foo1
+npm run dev
