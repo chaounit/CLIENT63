@@ -3,20 +3,46 @@
 
 <head>
     <style>
-        img {
+        /*____________________________________________________________________________________*/
+        /*float right*/
+        div {
+            border: 3px solid #4CAF50;
+            padding: 5px;
+        }
+
+        .img1 {
             float: right;
         }
+
+        .clearfix {
+            overflow: auto;
+        }
+
+        .img2 {
+            float: right;
+        }
+
+        /*____________________________________________________________________________________*/
     </style>
 </head>
 
 <body>
+    <!-- float right -->
+    <!-- _______________________________________________________________________________________ -->
+    <p>Float Right</p>
 
-    <p>CHAO SOONS</p>
+    <div>
+        <img class="img1" src="https://sv1.picz.in.th/images/2020/06/26/5kI7fN.jpg" alt="sexy" width="170" height="170">
+        CHAO SOONS
+    </div>
 
-    <p><img src="https://sv1.picz.in.th/images/2020/06/26/5kI7fN.jpg" alt="Pineapple"
-            style="width:170px;height:170px;margin-left:15px;">
-        float: right</p>
+    <p style="clear:right">Clearfix</p>
 
+    <div class="clearfix">
+        <img class="img2" src="https://sv1.picz.in.th/images/2020/06/26/5kI7fN.jpg" alt="sexy" width="170" height="170">
+        CHAO SOONS
+    </div>
+    <!-- _______________________________________________________________________________________ -->
 </body>
 
 </html>
