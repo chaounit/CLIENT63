@@ -1,0 +1,5 @@
+npm run dev		สั่งออนไลน์พอต 3000
+http://localhost:3000	เปิดเว็บ
+
+npx create-next-app	สร้าง
+code .			เปิดไฟล์
