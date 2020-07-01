@@ -1,5 +1,9 @@
-npm run dev		สั่งออนไลน์พอต 3000
-http://localhost:3000	เปิดเว็บ
+npm i -g yarn		ติดตั้ง
+yarn			ตรวจสอบ
 
 npx create-next-app	สร้าง
 code .			เปิดไฟล์
+
+npm run dev		สั่งออนไลน์พอต 3000
+http://localhost:3000	เปิดเว็บ
+
