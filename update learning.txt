@@ -2,3 +2,4 @@
 30/06/2563	เอาไฟล์ลง nodejs แก้ปัญหา package.json ไม่รองรับการทำงาน
 1/07/2563	แก้ไขโค้ด หน้า index ที่ error
 2-3/07/2563 	เพิ่มหน้าเวบต่างๆ
+4-5/07/2563	Shared Components และ Dynamic Pages
