@@ -5,3 +5,4 @@
 4-5/07/2563	Shared Components และ Dynamic Pages
 6/07/2563	ปรับแต่งหน้าเว็บ
 7/07/2563	ลองใช้ props
+8/07/2563	แก้ props
